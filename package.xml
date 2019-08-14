@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mage_Strikeiron</name>
+    <version>1.0.18800</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Strikeiron Services</summary>
+    <description>Strikeiron Services</description>
+    <notes>First stable release</notes>
+    <authors><author><name>Moshe</name><user>auto-converted</user><email>moshe@varien.com</email></author></authors>
+    <date>2008-03-31</date>
+    <time>13:07:59</time>
+    <contents><target name="magecore"><dir name="Mage"><dir name="Strikeiron"><dir name="etc"><file name="config.xml" hash="0d68fbb8ac21c76ae60fc7f1c967c5af"/><file name="system.xml" hash="6cced91b6720b17325a1e4cf6df2649f"/></dir><dir name="Helper"><file name="Data.php" hash="cf8c6d5a647f4aa54e0bbc646d89be04"/></dir><dir name="Model"><dir name="Currency"><dir name="Import"><file name="Strikeiron.php" hash="097de9ea72fbd0ac618e087762b4bc7b"/></dir></dir><dir name="Service"><file name="Base.php" hash="442e795bc6b34547c5f3977020b37768"/><file name="EmailVerification.php" hash="3a95350fd6cff437b9d1e0faacf0de25"/><file name="ForeignExchangeRates.php" hash="6eeb5c1c6a69d6eb4862f6036401c09e"/></dir><dir name="Source"><file name="UnderterminedEmailAction.php" hash="318e60e0936d68a0128c5e93630e9725"/></dir><file name="Strikeiron.php" hash="6e32f850c90c92fb984777d68793e9bd"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_Strikeiron.xml" hash="c240a1df9e109c685d9ef011f1691bcc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><package><name>Mage_Core_Adminhtml</name><channel>community</channel><min>1.0.18800</min><max></max></package></required></dependencies>
+</package>
