@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Mage_Strikeiron",
+    "name": "OpenMageModuleFostering\/Mage_Strikeiron",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Strikeiron Services",
     "authors": [
-    {
-        "name": "Moshe",
-        "email": "moshe@varien.com"
-    }
-],
+        {
+            "name": "Moshe",
+            "email": "moshe@varien.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
